@@ -1,0 +1,67 @@
+#subscribe{ 
+    .container-fluid{
+        padding: 0;
+    }
+background-image: url("../img/subscribe.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+width: 100%;
+.overlay{
+background: rgba(65, 65, 65, 0.7);
+height: 300px;
+ width: 100%;
+}
+.icconss{
+	i{
+		padding: 10px;
+        margin-top: 5px;
+		border:3px solid white;
+		margin-right: 10px;
+		border-radius:2px;
+		color: white;
+		transition: .2s ease-in-out;
+		&:hover{
+			background-color: $mainColor;
+			border-color:$mainColor;
+		}
+	}
+}
+h2{
+	color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+  input {
+        width: 300px;
+        padding: 10px 8px 10px 15px;
+        height: 45px;
+        border-radius: 2px 0 0 2px;
+        border: none;
+        box-shadow: none;
+        background: rgba(255,255,255,0.4);
+        color: white;
+        font-weight: 600;
+        outline: none;
+        &::placeholder{
+        	color: white;
+        }
+        }
+        button{
+        	padding: 10px 10px 7.5px 10px;
+        	width: 130px;
+            border-radius: 2px;
+}
+}
+#map{
+    .container-fluid{
+        padding: 0;
+        .col-12{
+            padding: 0;
+        }
+    }
+}
